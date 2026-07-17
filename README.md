@@ -1,16 +1,29 @@
-## Hi there 👋
+# Hi, I'm Emran 👋
 
-<!--
-**emran-youssef/emran-youssef** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Backend developer focused on Java & Spring Boot. Currently interning at Eastnets 
+(Business Software Solutions) building fintech-adjacent backend systems, and 
+finishing my CS degree at Al-Zaytoonah University.
 
-Here are some ideas to get you started:
+## What I work with
+Java · Spring Boot · REST APIs · MySQL · JPA/Hibernate · Kafka · Flyway · JWT/Spring Security
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Projects
+
+### 🏠 [UniShare](https://github.com/emran-youssef/unishare_backend)
+P2P rental platform for university students — full-stack app with React/TypeScript 
+frontend and Spring Boot backend.
+
+### 💳 [Digital Wallet](https://github.com/emran-youssef/digital_wallet_spring)
+Spring Boot digital wallet service — [1-2 real things it does, e.g. "handles 
+account balances, transfers, and transaction history with JWT-secured endpoints"].
+
+### 📊 [Log Monitoring & Alert System](https://github.com/emran-youssef/log_monitoring_alert_system)
+Log monitoring and alerting pipeline built with Spring Boot and Apache Kafka — 
+[1-2 real things it does, e.g. "streams application logs, detects anomalies, 
+and triggers alerts in real time"].
+
+## Currently
+Extending the log monitoring project into a full Transactions Monitoring System 
+with Spring Boot, Apache Kafka, and Docker Compose.
+
+📫 [LinkedIn](https://www.linkedin.com/in/emran-al-khaleel-1b86b0343)
