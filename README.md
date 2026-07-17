@@ -1,7 +1,6 @@
 # Hi, I'm Emran 👋
 
-Backend developer focused on Java & Spring Boot. Currently interning at Eastnets 
-(Business Software Solutions) building fintech-adjacent backend systems, and 
+Backend developer focused on Java & Spring Boot. and
 finishing my CS degree at Al-Zaytoonah University.
 
 ## What I work with
