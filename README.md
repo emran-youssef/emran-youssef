@@ -4,7 +4,6 @@ Backend developer focused on Java & Spring Boot. and
 finishing my CS degree at Al-Zaytoonah University.
 
 ## What I work with
-## What I work with
 <img src="https://skillicons.dev/icons?i=java,spring,hibernate,mysql,kafka,docker,idea,git,github,postman" />
 
 Also working with: Flyway (DB migrations), JWT/Spring Security (auth)
