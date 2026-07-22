@@ -1,7 +1,4 @@
 <h1 align="center">Hi, I'm Emran 👋</h1> <h3 align="center">Backend Developer • Java & Spring Boot • Fintech Systems</h3> <p align="center"> <img src="https://readme-typing-svg.demolab.com/?lines=Building+backend+systems+for+banking+%26+fintech;Java+%7C+Spring+Boot+%7C+Kafka+%7C+MySQL;Currently+interning+at+Eastnets;CS+Student+%40+Al-Zaytoonah+University&font=Fira%20Code&center=true&width=500&height=45&color=2F81F7&vCenter=true&size=22" alt="Typing SVG" /> </p> <p align="center"> <a href="https://www.linkedin.com/in/emran-al-khaleel-1b86b0343"> <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /> </a> <a href="mailto:youremail@example.com"> <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /> </a> </p>
-🚀 About Me
-💼 Backend Developer specializing in Java, Spring Boot & event-driven systems for fintech/banking
-🎓 Final-year Computer Science student @ Al-Zaytoonah University
 🛠️ Tech Stack
 <p align="center"> <img src="https://skillicons.dev/icons?i=java,spring,hibernate,mysql,kafka,docker,idea,git,github,postman" /> </p>
 
