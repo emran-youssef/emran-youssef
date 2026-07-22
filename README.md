@@ -112,3 +112,9 @@ Backend developer passionate about building scalable, secure, and maintainable a
 <p align="center">
   <img height="170" src="https://streak-stats.demolab.com/?user=emran-youssef&hide_border=true"/>
 </p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/followers/emran-youssef?label=Followers&style=for-the-badge&color=2F81F7&logo=github"/>
+  <img src="https://img.shields.io/github/stars/emran-youssef?affiliations=OWNER&style=for-the-badge&color=2F81F7&logo=github"/>
+  <img src="https://komarev.com/ghpvc/?username=emran-youssef&label=Profile+Views&style=for-the-badge&color=2F81F7"/>
+</p>
