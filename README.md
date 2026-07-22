@@ -1,30 +1,14 @@
-# Hi, I'm Emran 👋
+<h1 align="center">Hi, I'm Emran 👋</h1> <h3 align="center">Backend Developer • Java & Spring Boot • Fintech Systems</h3> <p align="center"> <img src="https://readme-typing-svg.demolab.com/?lines=Building+backend+systems+for+banking+%26+fintech;Java+%7C+Spring+Boot+%7C+Kafka+%7C+MySQL;Currently+interning+at+Eastnets;CS+Student+%40+Al-Zaytoonah+University&font=Fira%20Code&center=true&width=500&height=45&color=2F81F7&vCenter=true&size=22" alt="Typing SVG" /> </p> <p align="center"> <a href="https://www.linkedin.com/in/emran-al-khaleel-1b86b0343"> <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /> </a> <a href="mailto:youremail@example.com"> <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /> </a> </p>
+🚀 About Me
+💼 Backend Developer specializing in Java, Spring Boot & event-driven systems for fintech/banking
+🎓 Final-year Computer Science student @ Al-Zaytoonah University
+🛠️ Tech Stack
+<p align="center"> <img src="https://skillicons.dev/icons?i=java,spring,hibernate,mysql,kafka,docker,idea,git,github,postman" /> </p>
 
-Backend developer focused on Java & Spring Boot. and
-finishing my CS degree at Al-Zaytoonah University.
+Also working with: Flyway (DB migrations) · JWT & Spring Security (auth) · MapStruct · REST APIs
 
-## What I work with
-<img src="https://skillicons.dev/icons?i=java,spring,hibernate,mysql,kafka,docker,idea,git,github,postman" />
-
-Also working with: Flyway (DB migrations), JWT/Spring Security (auth)
-
-## Projects
-
-### 🏠 [UniShare](https://github.com/emran-youssef/unishare_backend)
-P2P rental platform for university students — full-stack app with React/TypeScript 
-frontend and Spring Boot backend.
-
-### 💳 [Digital Wallet](https://github.com/emran-youssef/digital_wallet_spring)
-Spring Boot digital wallet service — [1-2 real things it does, e.g. "handles 
-account balances, transfers, and transaction history with JWT-secured endpoints"].
-
-### 📊 [Log Monitoring & Alert System](https://github.com/emran-youssef/log_monitoring_alert_system)
-Log monitoring and alerting pipeline built with Spring Boot and Apache Kafka — 
-[1-2 real things it does, e.g. "streams application logs, detects anomalies, 
-and triggers alerts in real time"].
-
-## Currently
-Extending the log monitoring project into a full Transactions Monitoring System 
-with Spring Boot, Apache Kafka, and Docker Compose.
-
-📫 [LinkedIn](https://www.linkedin.com/in/emran-al-khaleel-1b86b0343)
+📌 Featured Projects
+<table> <tr> <td width="50%" valign="top"> <h4>🏠 <a href="https://github.com/emran-youssef/unishare_backend">UniShare</a></h4> <p>A P2P rental platform for university students. Full-stack app with a React/TypeScript frontend and a Spring Boot backend — handling listings, meetups, and secure user transactions.</p> </td> <td width="50%" valign="top"> <h4>💳 <a href="https://github.com/emran-youssef/digital_wallet_spring">Digital Wallet</a></h4> <p>A Spring Boot digital wallet service that manages account balances, peer-to-peer transfers, and transaction history — with JWT-secured REST endpoints and layered validation.</p> </td> </tr> <tr> <td width="50%" valign="top"> <h4>📊 <a href="https://github.com/emran-youssef/log_monitoring_alert_system">Log Monitoring & Alert System</a></h4> <p>A real-time log monitoring and alerting pipeline built with Spring Boot and Apache Kafka. Streams application logs, aggregates events, detects anomalies, and raises alerts and incidents automatically.</p> </td> <td width="50%" valign="top"> <h4>🔄 Currently Building: Transactions Monitoring System</h4> <p>Extending the log monitoring project into a full transactions monitoring system using Spring Boot, Apache Kafka, and Docker Compose — for fintech-style real-time fraud/anomaly detection.</p> </td> </tr> </table>
+📈 GitHub Stats
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=emran-youssef&show_icons=true&theme=default&hide_border=true&count_private=true" height="165" /> <img src="https://github-readme-streak-stats.herokuapp.com/?user=emran-youssef&hide_border=true" height="165" /> </p>
+<p align="center"> 📫 Reach me on <a href="https://www.linkedin.com/in/emran-al-khaleel-1b86b0343">LinkedIn</a> </p>
