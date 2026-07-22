@@ -52,10 +52,23 @@ Backend developer passionate about building scalable, secure, and maintainable a
 
 ## 🚀 Featured Projects
 
-- 🏠 **UniShare** – Full-stack rental platform built with React and Spring Boot.
-- 💳 **Digital Wallet** – Secure wallet service supporting peer-to-peer transfers and JWT authentication.
-- 📊 **Log Monitoring & Alert System** – Real-time monitoring pipeline using Spring Boot and Apache Kafka.
-- 🛡️ **Transactions Monitoring System** – Rule-based transaction monitoring platform for detecting suspicious financial activity.
+### 🏠 [UniShare](https://github.com/emran-youssef/unishare_backend)
+A full-stack rental platform built with **React, TypeScript, and Spring Boot**, featuring authentication, listing management, and secure user interactions.
+
+---
+
+### 💳 [Digital Wallet](https://github.com/emran-youssef/digital_wallet_spring)
+A secure wallet service built with **Spring Boot** supporting peer-to-peer transfers, JWT authentication, transaction history, and layered validation.
+
+---
+
+### 📊 [Log Monitoring & Alert System](https://github.com/emran-youssef/log_monitoring_alert_system)
+A real-time monitoring platform using **Spring Boot** and **Apache Kafka** to collect logs, detect anomalies, and generate alerts automatically.
+
+---
+
+### 🛡️ Transactions Monitoring System *(In Progress)*
+A rule-based transaction monitoring platform built with **Spring Boot**, **Apache Kafka**, and **Docker**, designed to detect suspicious financial activity in real time.
 
 ---
 
