@@ -107,17 +107,14 @@ Backend developer passionate about building scalable, secure, and maintainable a
 
 ---
 
-## 🚧 Currently Building
+## 🏗️ Architecture & Engineering Practices
 
-### 🛡️ Transaction Monitoring System
-
-A real-time financial monitoring platform focused on detecting suspicious transactions.
-
-**Current focus:**
-- Designing event-driven workflows using Apache Kafka
-- Implementing rule-based transaction evaluation
-- Building case management and investigation workflows
-- Managing database migrations with Flyway
-- Containerizing services with Docker Compose
+- Layered backend architecture (Controller → Service → Repository)
+- REST API design and validation
+- Database modeling with JPA/Hibernate
+- Event-driven communication with Kafka
+- Database versioning with Flyway
+- Containerized development environments using Docker Compose
+- Secure API development with Spring Security and JWT
 
 
