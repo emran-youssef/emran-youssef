@@ -107,15 +107,17 @@ Backend developer passionate about building scalable, secure, and maintainable a
 
 ---
 
-## 📈 GitHub Stats
+## 🚧 Currently Building
 
-<p align="center">
-  <img height="170" src="https://streak-stats.demolab.com/?user=emran-youssef&hide_border=true"/>
-</p>
+### 🛡️ Transaction Monitoring System
 
-<p align="center">
-  <img src="https://img.shields.io/github/followers/emran-youssef?label=Followers&style=for-the-badge&color=2F81F7&logo=github"/>
-  <img src="https://img.shields.io/github/stars/emran-youssef?affiliations=OWNER&style=for-the-badge&color=2F81F7&logo=github"/>
-</p>
+A real-time financial monitoring platform focused on detecting suspicious transactions.
+
+**Current focus:**
+- Designing event-driven workflows using Apache Kafka
+- Implementing rule-based transaction evaluation
+- Building case management and investigation workflows
+- Managing database migrations with Flyway
+- Containerizing services with Docker Compose
 
 
