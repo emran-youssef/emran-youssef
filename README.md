@@ -55,60 +55,115 @@ Backend developer passionate about building scalable, secure, and maintainable a
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🏠 <a href="https://github.com/emran-youssef/unishare_backend">UniShare</a></h3>
-      <p>Full-stack P2P rental platform for university students.</p>
-      <ul>
-        <li>Auth &amp; user session management</li>
-        <li>Listing creation, browsing &amp; meetup scheduling</li>
-        <li>Secure, validated user-to-user interactions</li>
-      </ul>
-      <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
-      <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
-      <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
-    </td>
-    <td width="50%" valign="top">
-      <h3>💳 <a href="https://github.com/emran-youssef/digital_wallet_spring">Digital Wallet</a></h3>
-      <p>Secure wallet service for managing balances and transfers.</p>
-      <ul>
-        <li>Peer-to-peer transfers with balance validation</li>
-        <li>JWT-secured REST endpoints</li>
-        <li>Full transaction history &amp; layered request validation</li>
-      </ul>
-      <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white"/>
-      <img src="https://img.shields.io/badge/JWT-black?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
-      <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>📊 <a href="https://github.com/emran-youssef/log_monitoring_alert_system">Log Monitoring & Alert System</a></h3>
-      <p>Real-time log monitoring and alerting pipeline.</p>
-      <ul>
-        <li>Streams &amp; aggregates application logs via Kafka</li>
-        <li>Detects anomalies against configurable rules</li>
-        <li>Auto-generates alerts &amp; escalates to incidents</li>
-      </ul>
-      <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
-      <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🛡️ Transactions Monitoring System <em>(In Progress)</em></h3>
-      <p>Rule-based platform for real-time financial anomaly detection.</p>
-      <ul>
-        <li>Consumes transaction streams in real time via Kafka</li>
-        <li>Flags suspicious activity against configurable rules</li>
-        <li>Fully containerized with Docker Compose</li>
-      </ul>
-      <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-    </td>
-  </tr>
-</table>
+      <h3>🛡️ <a href="https://github.com/emran-youssef/transactions_monitoring">Transactions Monitoring Platform</a></h3>
 
+**Status:** ![In Progress](https://img.shields.io/badge/Status-In_Progress-yellow?style=flat-square)
+
+A microservices-based platform for real-time financial transaction monitoring and suspicious activity detection.
+
+**🏗️ Architecture Highlights**
+- Event-driven communication with Apache Kafka
+- Independent Spring Boot microservices
+- Rule evaluation engine & investigation workflow
+- Flyway-managed database migrations
+- Docker Compose development environment
+
+**⚡ Key Capabilities**
+- Processes financial transactions in real time
+- Detects suspicious activity using configurable rules
+- Creates investigation cases for analyst review
+- Designed with scalability and service isolation in mind
+
+<p>
+<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
+<img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/Flyway-CC0200?style=flat-square&logo=flyway&logoColor=white"/>
+</p>
+
+<a href="https://github.com/emran-youssef/transactions_monitoring">
+<img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github"/>
+</a>
+
+</td>
+
+<td width="50%" valign="top">
+
+<h3>💳 <a href="https://github.com/emran-youssef/digital_wallet_spring">Digital Wallet</a></h3>
+
+A secure backend service that simulates digital wallet operations with a focus on transactional integrity and secure money transfers.
+
+**⚡ Key Capabilities**
+- Peer-to-peer balance transfers
+- JWT authentication & authorization
+- Layered architecture with request validation
+- Complete transaction history
+
+<p>
+<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
+<img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white"/>
+<img src="https://img.shields.io/badge/JWT-black?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
+</p>
+
+<a href="https://github.com/emran-youssef/digital_wallet_spring">
+<img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github"/>
+</a>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+<h3>📊 <a href="https://github.com/emran-youssef/log_monitoring_alert_system">Log Monitoring & Alert System</a></h3>
+
+An event-driven monitoring platform that analyzes application logs in real time and generates alerts based on configurable rules.
+
+**⚡ Key Capabilities**
+- Kafka-based log processing pipeline
+- Configurable anomaly detection
+- Automatic alert generation
+- Incident escalation workflow
+
+<p>
+<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
+<img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
+</p>
+
+<a href="https://github.com/emran-youssef/log_monitoring_alert_system">
+<img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github"/>
+</a>
+
+</td>
+
+<td width="50%" valign="top">
+
+<h3>🏠 <a href="https://github.com/emran-youssef/unishare_backend">UniShare</a></h3>
+
+A peer-to-peer rental platform that connects university students to safely share and rent everyday items.
+
+**⚡ Key Capabilities**
+- Secure authentication & user management
+- Listing creation and discovery
+- Meetup scheduling workflow
+- Input validation and layered architecture
+
+<p>
+<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
+</p>
+
+<a href="https://github.com/emran-youssef/unishare_backend">
+<img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github"/>
+</a>
+
+</td>
+</tr>
+</table>
 ---
 
 ## 🏗️ Architecture & Engineering Practices
