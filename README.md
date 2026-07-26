@@ -109,11 +109,12 @@ Backend developer passionate about building scalable, secure, and maintainable a
 
 ## 🏗️ Architecture & Engineering Practices
 
+- Microservices architecture with service isolation and independent responsibilities
 - Layered backend architecture (Controller → Service → Repository)
-- REST API design and validation
+- REST API design with request validation and clean API contracts
 - Database modeling with JPA/Hibernate
-- Event-driven communication with Kafka
-- Database versioning with Flyway
+- Event-driven communication using Apache Kafka
+- Database versioning and migration management with Flyway
 - Containerized development environments using Docker Compose
 - Secure API development with Spring Security and JWT
 
