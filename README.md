@@ -1,6 +1,6 @@
 <h1 align="center">Hi, I'm Emran 👋</h1>
 <h3 align="center">
-Backend Developer • Java • Spring Boot • FinTech
+Backend Developer • Java • Spring Boot 
 </h3>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&center=true&vCenter=true&width=650&lines=Building+Scalable+Backend+Applications;Java+%7C+Spring+Boot+%7C+Kafka+%7C+Docker;REST+APIs+%7C+Microservices+%7C+Secure+Applications" />
