@@ -52,127 +52,48 @@ Backend developer passionate about building scalable, secure, and maintainable a
 
 ## 🚀 Featured Projects
 
----
+<p align="center">
+  <a href="https://github.com/emran-youssef/transactions_monitoring">
+    <img src="https://img.shields.io/badge/🛡️_Transactions_Monitoring_Platform-181717?style=for-the-badge&logo=github"/>
+  </a>
+</p>
 
-### 🛡️ Transactions Monitoring Platform
-<a href="https://github.com/emran-youssef/transactions_monitoring">
-<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github"/>
-</a>
+<p align="center">
+A microservices-based financial monitoring platform built with Spring Boot and Kafka to detect suspicious transactions through configurable rules.
+</p>
 
-**Status:** ![In Progress](https://img.shields.io/badge/Status-In_Progress-yellow?style=flat-square)
-
-A Spring Boot microservices platform that processes financial transactions asynchronously and detects suspicious activity through configurable fraud detection rules.
-
-**🔧 Engineering Highlights**
-- Event-driven architecture using Apache Kafka
-- Independent Spring Boot microservices with clear service boundaries
-- Rule engine for suspicious activity detection
-- Case management workflow for investigation and analyst decisions
-- Database migrations managed with Flyway
-- Docker Compose environment for local development
-- Designed around scalability and service isolation
-
-**🧩 Technical Focus**
-Distributed Systems • Event-Driven Architecture • Financial Transaction Monitoring
-
-**Technologies**
-
+<p align="center">
 <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
-<img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/Flyway-CC0200?style=flat-square&logo=flyway&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
+</p>
 
+<p align="center">
+⚡ Event Driven Architecture • 🔍 Rule Engine • 📂 Case Management
+</p>
 
 ---
 
-### 💳 Digital Wallet
-<a href="https://github.com/emran-youssef/digital_wallet_spring">
-<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github"/>
-</a>
+<p align="center">
+  <a href="https://github.com/emran-youssef/digital_wallet_spring">
+    <img src="https://img.shields.io/badge/💳_Digital_Wallet-181717?style=for-the-badge&logo=github"/>
+  </a>
+</p>
 
-**Status:** ![Completed](https://img.shields.io/badge/Status-Completed-success?style=flat-square)
+<p align="center">
+A secure backend system simulating digital wallet operations with JWT authentication and transactional money transfers.
+</p>
 
-A secure backend service that simulates digital wallet operations with a focus on transactional consistency, authentication, and reliable money transfers.
-
-**🔧 Engineering Highlights**
-- Implemented secure authentication and authorization using JWT
-- Designed REST APIs following layered architecture principles
-- Built transaction workflows with database consistency considerations
-- Added request validation and centralized exception handling
-- Maintained transaction history and wallet operations
-
-**🧩 Technical Focus**
-Secure APIs • Transaction Management • Backend Architecture
-
-**Technologies**
-
-<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
+<p align="center">
 <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
 <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white"/>
 <img src="https://img.shields.io/badge/JWT-black?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
+</p>
 
-
----
-
-### 📊 Log Monitoring & Alert System
-<a href="https://github.com/emran-youssef/log_monitoring_alert_system">
-<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github"/>
-</a>
-
-**Status:** ![Completed](https://img.shields.io/badge/Status-Completed-success?style=flat-square)
-
-An event-driven monitoring platform that processes application logs, detects abnormal patterns, and generates alerts based on configurable rules.
-
-**🔧 Engineering Highlights**
-- Kafka-based asynchronous log processing pipeline
-- Real-time event consumption and processing
-- Configurable alerting rules
-- Automated incident detection workflow
-- Backend services built with Spring Boot
-
-**🧩 Technical Focus**
-Event Streaming • Monitoring Systems • Asynchronous Processing
-
-**Technologies**
-
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
-<img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
-
-
----
-
-### 🏠 UniShare
-<a href="https://github.com/emran-youssef/unishare_backend">
-<img src="https://img.shields.io/badge/Backend-181717?style=for-the-badge&logo=github"/>
-</a>
-
-<a href="https://github.com/emran-youssef/UniShare_Frontend">
-<img src="https://img.shields.io/badge/Frontend-181717?style=for-the-badge&logo=github"/>
-</a>
-
-**Status:** ![Completed](https://img.shields.io/badge/Status-Completed-success?style=flat-square)
-
-A full-stack rental platform that allows university students to share and rent items through a secure marketplace.
-
-**🔧 Engineering Highlights**
-- Built REST APIs using Spring Boot
-- Implemented secure authentication with JWT
-- Designed listing, booking, payment, review, and messaging workflows
-- Developed frontend using React and TypeScript
-- Integrated database persistence using JPA/Hibernate
-
-**🧩 Technical Focus**
-Full-Stack Development • REST APIs • Authentication Systems
-
-**Technologies**
-
-<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
-<img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white"/>
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
+<p align="center">
+🔐 Security • 💰 Transactions • 🏦 Backend Architecture
+</p>
 ---
 
 ## 🏗️ Architecture & Engineering Practices
