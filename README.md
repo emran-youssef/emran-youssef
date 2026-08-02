@@ -52,48 +52,191 @@ Backend developer passionate about building scalable, secure, and maintainable a
 
 ## 🚀 Featured Projects
 
+---
+
+# 🛡️ Transactions Monitoring Platform
+
 <p align="center">
   <a href="https://github.com/emran-youssef/transactions_monitoring">
-    <img src="https://img.shields.io/badge/🛡️_Transactions_Monitoring_Platform-181717?style=for-the-badge&logo=github"/>
+    <img src="https://img.shields.io/badge/View_Project-181717?style=for-the-badge&logo=github"/>
   </a>
 </p>
 
 <p align="center">
-A microservices-based financial monitoring platform built with Spring Boot and Kafka to detect suspicious transactions through configurable rules.
+A distributed financial monitoring platform built with Spring Boot microservices and Apache Kafka to detect suspicious transactions and manage investigation workflows.
 </p>
 
 <p align="center">
+<img src="https://img.shields.io/badge/Status-In_Progress-yellow?style=flat-square"/>
 <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
-<img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
+<img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Flyway-CC0200?style=flat-square&logo=flyway&logoColor=white"/>
 </p>
 
-<p align="center">
-⚡ Event Driven Architecture • 🔍 Rule Engine • 📂 Case Management
-</p>
+
+### Architecture Flow
+
+
+Transaction Service
+|
+↓
+Kafka
+|
+↓
+Rule Engine
+|
+↓
+Case Management
+|
+↓
+Audit Service
+
+
+
+### Engineering Highlights
+
+- ⚡ Event-driven architecture using Apache Kafka
+- 🧩 Independent Spring Boot microservices with clear responsibilities
+- 🔍 Configurable rule engine for suspicious activity detection
+- 📂 Case management workflow for investigation and analyst decisions
+- 🗄️ Database migrations managed with Flyway
+- 🐳 Containerized development environment using Docker Compose
+
+
+**Technical Focus**
+
+`Distributed Systems` `Event-Driven Architecture` `Financial Transaction Processing`
+
+
+
+<br>
 
 ---
 
+# ⚙️ Backend Engineering Projects
+
+
+## 💳 Digital Wallet
+
 <p align="center">
   <a href="https://github.com/emran-youssef/digital_wallet_spring">
-    <img src="https://img.shields.io/badge/💳_Digital_Wallet-181717?style=for-the-badge&logo=github"/>
+    <img src="https://img.shields.io/badge/View_Project-181717?style=for-the-badge&logo=github"/>
   </a>
 </p>
 
 <p align="center">
-A secure backend system simulating digital wallet operations with JWT authentication and transactional money transfers.
+A secure backend service that simulates digital wallet operations with a focus on authentication, authorization, and reliable money transfers.
 </p>
 
 <p align="center">
+<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
 <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
 <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white"/>
 <img src="https://img.shields.io/badge/JWT-black?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
 </p>
 
+
+### Engineering Highlights
+
+- 🔐 JWT-based authentication and authorization
+- 💰 Transaction-safe money transfer workflows
+- 🏗️ Layered backend architecture
+- ✅ Request validation and centralized exception handling
+- 📜 Persistent transaction history management
+
+
+**Technical Focus**
+
+`Secure APIs` `Transaction Management` `Backend Architecture`
+
+
+
+---
+
+## 📊 Log Monitoring & Alert System
+
 <p align="center">
-🔐 Security • 💰 Transactions • 🏦 Backend Architecture
+  <a href="https://github.com/emran-youssef/log_monitoring_alert_system">
+    <img src="https://img.shields.io/badge/View_Project-181717?style=for-the-badge&logo=github"/>
+  </a>
 </p>
+
+
+<p align="center">
+An event-driven monitoring platform that processes application logs and generates alerts based on configurable detection rules.
+</p>
+
+
+<p align="center">
+<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
+<img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
+</p>
+
+
+### Engineering Highlights
+
+- 📨 Kafka-based asynchronous event processing
+- 📈 Real-time log processing pipeline
+- 🚨 Automated alert generation
+- ⚙️ Configurable detection rules
+- 🔄 Event-driven system design
+
+
+**Technical Focus**
+
+`Event Streaming` `Monitoring Systems` `Asynchronous Processing`
+
+
+
+<br>
+
+---
+
+# 🏠 UniShare
+
+<p align="center">
+
+<a href="https://github.com/emran-youssef/unishare_backend">
+<img src="https://img.shields.io/badge/Backend-181717?style=for-the-badge&logo=github"/>
+</a>
+
+<a href="https://github.com/emran-youssef/UniShare_Frontend">
+<img src="https://img.shields.io/badge/Frontend-181717?style=for-the-badge&logo=github"/>
+</a>
+
+</p>
+
+
+<p align="center">
+A full-stack rental platform that connects university students through a secure marketplace for sharing and renting everyday items.
+</p>
+
+
+<p align="center">
+<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
+</p>
+
+
+### Features
+
+- 🔐 Secure authentication and user management
+- 🏠 Listing creation and discovery
+- 📅 Booking workflow management
+- 💳 Payment simulation
+- ⭐ Review system
+- 💬 Messaging functionality
+
+
+**Technical Focus**
+
+`Full-Stack Development` `REST APIs` `Authentication Systems`
 ---
 
 ## 🏗️ Architecture & Engineering Practices
