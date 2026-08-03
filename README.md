@@ -50,37 +50,18 @@ Backend developer passionate about building scalable, secure, and maintainable a
 
 ---
 
+Here's a cleaner layout — dropped the heavy <p align="center"> badge clutter under every project (replaced with a single inline line), removed the "⚙️ Backend Engineering Projects" header entirely, and cut the repeated horizontal rules that were breaking up the flow every few lines.
+
+markdown
 ## 🚀 Featured Projects
 
----
+### 🛡️ [Transactions Monitoring Platform](https://github.com/emran-youssef/transactions_monitoring)
+`Spring Boot` `Kafka` `MySQL` `Flyway` `Docker` · **Status: In Progress**
 
-# 🛡️ Transactions Monitoring Platform
-
-<p align="center">
-  <a href="https://github.com/emran-youssef/transactions_monitoring">
-    <img src="https://img.shields.io/badge/View_Project-181717?style=for-the-badge&logo=github"/>
-  </a>
-</p>
-
-<p align="center">
 A Spring Boot microservices project for detecting suspicious transactions, built around Kafka for service-to-service communication and a configurable rule engine.
-</p>
-
-<p align="center">
-<img src="https://img.shields.io/badge/Status-In_Progress-yellow?style=flat-square"/>
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
-<img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
-<img src="https://img.shields.io/badge/Flyway-CC0200?style=flat-square&logo=flyway&logoColor=white"/>
-</p>
-
-### Architecture Flow
 
 Transaction Service → Kafka → Rule Engine → Case Management → Audit Service
 
-
-### Engineering Highlights
 
 - 🧠 Rule engine implemented with the Strategy pattern, so new detection rules can be added without changing existing ones
 - 🔁 Kafka consumers designed to be idempotent, to avoid double-processing on message redelivery
@@ -89,37 +70,12 @@ Transaction Service → Kafka → Rule Engine → Case Management → Audit Serv
 - 🗄️ Schema changes tracked with Flyway across services
 - 🐳 Local development environment set up with Docker Compose
 
-**Technical Focus**
-
-`Microservices` `Event-Driven Architecture` `Rule-Based Detection`
-
 <br>
 
----
+### 💳 [Digital Wallet](https://github.com/emran-youssef/digital_wallet_spring)
+`Java` `Spring Boot` `Spring Security` `JWT` `MySQL`
 
-# ⚙️ Backend Engineering Projects
-
-## 💳 Digital Wallet
-
-<p align="center">
-  <a href="https://github.com/emran-youssef/digital_wallet_spring">
-    <img src="https://img.shields.io/badge/View_Project-181717?style=for-the-badge&logo=github"/>
-  </a>
-</p>
-
-<p align="center">
 A backend service that simulates basic digital wallet operations — accounts, balances, and transfers — with JWT-based auth.
-</p>
-
-<p align="center">
-<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
-<img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white"/>
-<img src="https://img.shields.io/badge/JWT-black?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
-</p>
-
-### Engineering Highlights
 
 - 🔐 JWT-based authentication and authorization
 - 💰 Transfer logic that accounts for concurrent balance updates
@@ -127,69 +83,24 @@ A backend service that simulates basic digital wallet operations — accounts, b
 - ✅ Centralized exception handling and input validation
 - 📜 Transaction history stored per account
 
-**Technical Focus**
-
-`Secure APIs` `Backend Architecture`
-
 <br>
 
----
+### 📊 [Log Monitoring & Alert System](https://github.com/emran-youssef/log_monitoring_alert_system)
+`Spring Boot` `Kafka` `MySQL`
 
-## 📊 Log Monitoring & Alert System
-
-<p align="center">
-  <a href="https://github.com/emran-youssef/log_monitoring_alert_system">
-    <img src="https://img.shields.io/badge/View_Project-181717?style=for-the-badge&logo=github"/>
-  </a>
-</p>
-
-<p align="center">
 An event-driven system that processes application logs and generates alerts based on configurable rules. Built during my Eastnets internship, and later extended into the Transactions Monitoring Platform above.
-</p>
-
-<p align="center">
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
-<img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
-</p>
-
-### Engineering Highlights
 
 - 📨 Kafka-based asynchronous log processing
 - 🚨 Alert generation based on configurable rules
 - 🔄 Event-driven design separating ingestion from alerting
 
-**Technical Focus**
-
-`Event Streaming` `Monitoring Systems`
-
 <br>
 
----
+### 🏠 UniShare
+[Backend](https://github.com/emran-youssef/unishare_backend) · [Frontend](https://github.com/emran-youssef/UniShare_Frontend)
+`React` `TypeScript` `Spring Boot` `MySQL`
 
-# 🏠 UniShare
-
-<p align="center">
-<a href="https://github.com/emran-youssef/unishare_backend">
-<img src="https://img.shields.io/badge/Backend-181717?style=for-the-badge&logo=github"/>
-</a>
-<a href="https://github.com/emran-youssef/UniShare_Frontend">
-<img src="https://img.shields.io/badge/Frontend-181717?style=for-the-badge&logo=github"/>
-</a>
-</p>
-
-<p align="center">
 A full-stack rental platform where university students can list and rent everyday items from each other.
-</p>
-
-<p align="center">
-<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
-<img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white"/>
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
-</p>
-
-### Features
 
 - 🔐 Authentication and user management
 - 🏠 Listing creation and discovery, including meetup-location selection
@@ -197,14 +108,9 @@ A full-stack rental platform where university students can list and rent everyda
 - ⭐ Review system and messaging between users
 - 🧬 Zod schemas on the frontend and MapStruct mapping on the backend for consistent request/response shapes
 
-**Technical Focus**
-
-`Full-Stack Development` `REST APIs`
-
 <br>
 
 ---
-
 ## 🏗️ Architecture & Engineering Practices
 
 - Microservices architecture with service isolation and independent responsibilities
