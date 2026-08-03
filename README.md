@@ -63,7 +63,7 @@ Backend developer passionate about building scalable, secure, and maintainable a
 </p>
 
 <p align="center">
-A distributed financial monitoring platform built with Spring Boot microservices and Apache Kafka to detect suspicious transactions and manage investigation workflows.
+A Spring Boot microservices project for detecting suspicious transactions, built around Kafka for service-to-service communication and a configurable rule engine.
 </p>
 
 <p align="center">
@@ -75,48 +75,29 @@ A distributed financial monitoring platform built with Spring Boot microservices
 <img src="https://img.shields.io/badge/Flyway-CC0200?style=flat-square&logo=flyway&logoColor=white"/>
 </p>
 
-
 ### Architecture Flow
 
-
-Transaction Service
-|
-↓
-Kafka
-|
-↓
-Rule Engine
-|
-↓
-Case Management
-|
-↓
-Audit Service
-
+Transaction Service → Kafka → Rule Engine → Case Management → Audit Service
 
 
 ### Engineering Highlights
 
-- ⚡ Event-driven architecture using Apache Kafka
-- 🧩 Independent Spring Boot microservices with clear responsibilities
-- 🔍 Configurable rule engine for suspicious activity detection
-- 📂 Case management workflow for investigation and analyst decisions
-- 🗄️ Database migrations managed with Flyway
-- 🐳 Containerized development environment using Docker Compose
-
+- 🧠 Rule engine implemented with the Strategy pattern, so new detection rules can be added without changing existing ones
+- 🔁 Kafka consumers designed to be idempotent, to avoid double-processing on message redelivery
+- 📤 Outbox pattern used for publishing events, to reduce the risk of lost or duplicate messages between services
+- 🔐 JWT-based authentication with role-based access control
+- 🗄️ Schema changes tracked with Flyway across services
+- 🐳 Local development environment set up with Docker Compose
 
 **Technical Focus**
 
-`Distributed Systems` `Event-Driven Architecture` `Financial Transaction Processing`
-
-
+`Microservices` `Event-Driven Architecture` `Rule-Based Detection`
 
 <br>
 
 ---
 
 # ⚙️ Backend Engineering Projects
-
 
 ## 💳 Digital Wallet
 
@@ -127,7 +108,7 @@ Audit Service
 </p>
 
 <p align="center">
-A secure backend service that simulates digital wallet operations with a focus on authentication, authorization, and reliable money transfers.
+A backend service that simulates basic digital wallet operations — accounts, balances, and transfers — with JWT-based auth.
 </p>
 
 <p align="center">
@@ -138,21 +119,19 @@ A secure backend service that simulates digital wallet operations with a focus o
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
 </p>
 
-
 ### Engineering Highlights
 
 - 🔐 JWT-based authentication and authorization
-- 💰 Transaction-safe money transfer workflows
-- 🏗️ Layered backend architecture
-- ✅ Request validation and centralized exception handling
-- 📜 Persistent transaction history management
-
+- 💰 Transfer logic that accounts for concurrent balance updates
+- 🏗️ Layered architecture (Controller → Service → Repository)
+- ✅ Centralized exception handling and input validation
+- 📜 Transaction history stored per account
 
 **Technical Focus**
 
-`Secure APIs` `Transaction Management` `Backend Architecture`
+`Secure APIs` `Backend Architecture`
 
-
+<br>
 
 ---
 
@@ -164,11 +143,9 @@ A secure backend service that simulates digital wallet operations with a focus o
   </a>
 </p>
 
-
 <p align="center">
-An event-driven monitoring platform that processes application logs and generates alerts based on configurable detection rules.
+An event-driven system that processes application logs and generates alerts based on configurable rules. Built during my Eastnets internship, and later extended into the Transactions Monitoring Platform above.
 </p>
-
 
 <p align="center">
 <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
@@ -176,21 +153,15 @@ An event-driven monitoring platform that processes application logs and generate
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
 </p>
 
-
 ### Engineering Highlights
 
-- 📨 Kafka-based asynchronous event processing
-- 📈 Real-time log processing pipeline
-- 🚨 Automated alert generation
-- ⚙️ Configurable detection rules
-- 🔄 Event-driven system design
-
+- 📨 Kafka-based asynchronous log processing
+- 🚨 Alert generation based on configurable rules
+- 🔄 Event-driven design separating ingestion from alerting
 
 **Technical Focus**
 
-`Event Streaming` `Monitoring Systems` `Asynchronous Processing`
-
-
+`Event Streaming` `Monitoring Systems`
 
 <br>
 
@@ -199,22 +170,17 @@ An event-driven monitoring platform that processes application logs and generate
 # 🏠 UniShare
 
 <p align="center">
-
 <a href="https://github.com/emran-youssef/unishare_backend">
 <img src="https://img.shields.io/badge/Backend-181717?style=for-the-badge&logo=github"/>
 </a>
-
 <a href="https://github.com/emran-youssef/UniShare_Frontend">
 <img src="https://img.shields.io/badge/Frontend-181717?style=for-the-badge&logo=github"/>
 </a>
-
 </p>
-
 
 <p align="center">
-A full-stack rental platform that connects university students through a secure marketplace for sharing and renting everyday items.
+A full-stack rental platform where university students can list and rent everyday items from each other.
 </p>
-
 
 <p align="center">
 <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
@@ -223,20 +189,20 @@ A full-stack rental platform that connects university students through a secure 
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
 </p>
 
-
 ### Features
 
-- 🔐 Secure authentication and user management
-- 🏠 Listing creation and discovery
-- 📅 Booking workflow management
-- 💳 Payment simulation
-- ⭐ Review system
-- 💬 Messaging functionality
-
+- 🔐 Authentication and user management
+- 🏠 Listing creation and discovery, including meetup-location selection
+- 📅 Booking workflow with a simulated payment method
+- ⭐ Review system and messaging between users
+- 🧬 Zod schemas on the frontend and MapStruct mapping on the backend for consistent request/response shapes
 
 **Technical Focus**
 
-`Full-Stack Development` `REST APIs` `Authentication Systems`
+`Full-Stack Development` `REST APIs`
+
+<br>
+
 ---
 
 ## 🏗️ Architecture & Engineering Practices
