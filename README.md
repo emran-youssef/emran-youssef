@@ -97,7 +97,7 @@ An event-driven system that processes application logs and generates alerts base
 <br>
 
 ### 🏠 UniShare
-[Backend](https://github.com/emran-youssef/unishare_backend) · [Frontend](https://github.com/emran-youssef/UniShare_Frontend)
+[live demo](https://unishare.up.railway.app)
 `React` `TypeScript` `Spring Boot` `MySQL`
 
 A full-stack rental platform where university students can list and rent everyday items from each other.
